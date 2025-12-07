@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/your-repo-url.git'
+                    url: 'https://github.com/Meerab-Iftikhar/PetPath_Tests.git'
             }
         }
 
